@@ -11,8 +11,8 @@ num_workers = 4
 # 设置设备为CUDA（如果有的话）
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # 数据集目录
-train_dir = './Datasets/training_set'
-test_dir = './Datasets/test_set'
+train_dir = './Datasets/cat&dog/training_set'
+test_dir = './Datasets/cat&dog/test_set'
 size = 128
 # 数据增强和预处理
 data_transforms = {
